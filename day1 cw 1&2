@@ -2,6 +2,14 @@ function alertmsg(){
   alert("Message from Javascript Alert!");
   console.log("Message to developer");
 }
+function app(){
+    return(
+        <div classname="App">
+            <h1>hi hello welcome i am so happy to be here</h1>
+            <button onClick={alertMsg}>CLICK mE</button>
+        </div>
+    )
+}
 
 function obj(){
   let myobject={name:"Madras"};
