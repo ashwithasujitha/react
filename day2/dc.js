@@ -1,12 +1,10 @@
-import React from "react";
-const Appcy = () =>
-{
-    return(
-        <div>
-            <h1 style={{textAlign:"center"}}>Smile Component</h1>
-            <p style={{textAlign:"center"}}>It is a functional component</p>
-            <img src="https://media.istockphoto.com/id/1388186992/vector/yellow-happy-face-vector-symbol-icon.jpg?s=612x612&w=0&k=20&c=GZBWkt0ZLxLHkxU58BhRqkk41xC0LySjXa0N65xMDlw=" alt="Smiling face" ></img>
-        </div>
-    );
+import React from 'react';
+const CE = () => {
+  return(
+    <div style={{backgroundColor:"lightblue",color:"blue",padding:"10px",border:"1px solid blue",borderRadius:"5px"}}>
+      <h1 style={{color:"green"}}>Inline Style in JSX Example.</h1>
+      <p style={{color:"darkblue",fontSize:"16px"}}>This is a paragraph with inline styles applied.</p>
+    </div>
+  );
 };
-export default Appcy;
+export default CE;
