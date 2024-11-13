@@ -1,0 +1,113 @@
+
+.product-list {
+  width: 90%; 
+  
+  max-width: 1200px; /* Max width for large screens */
+  margin: 2rem auto; /* Center the container and add top/bottom margins */
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #ff6f61, #6fa3ef); 
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.product-list h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.category-filter {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem; /* Space between category buttons */
+  margin-bottom: 2rem;
+}
+
+.category-filter button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #eee;
+  color: #333;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.category-filter button:hover {
+  background-color: #ff9a9e;
+  color: #fff;
+}
+
+.category-filter .active {
+  background-color: #ff6f61;
+  color: #fff;
+}
+
+.product-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+  gap: 1.5rem; /* Space between product items */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-item {
+  background-color: #fafafa;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.product-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.product-item p {
+  font-size: 1.1rem;
+  color: #27ae60;
+  margin-bottom: 1rem;
+}
+
+.product-item input[type="number"] {
+  padding: 0.25rem;
+  width: 70px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.product-item input[type="number"]:focus {
+  border-color: #ff6f61;
+}
+
+.product-item button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ff6f61;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-item button:hover {
+  background-color: #ff9072;
+}

@@ -1,0 +1,19 @@
+.order-page {
+    text-align: center;
+    padding: 20px;
+  }
+  .order-page h2 {
+    color: #4CAF50;
+  }
+  .order-page p {
+    font-size: 18px;
+  }
+  .order-page button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

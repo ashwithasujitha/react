@@ -1,0 +1,23 @@
+/* src/App.css */
+.app-container {
+  min-height: 100vh; /* Full height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #ff9a9e, #fecfef, #f6d285);
+  background-size: 300% 300%; /* Increased size for a smoother animation effect */
+  animation: gradientAnimation 20s ease infinite; /* Smooth gradient animation */
+  color: #333; /* Main text color */
+  font-family: 'Arial', sans-serif; /* Font style */
+  padding: 2rem 1rem; /* Added padding for liberal spacing */
+}
+
+/* Animation for background gradient */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  25% { background-position: 50% 50%; }
+  50% { background-position: 100% 50%; }
+  75% { background-position: 50% 50%; }
+  100% { background-position: 0% 50%; }
+}
